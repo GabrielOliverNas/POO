@@ -7,8 +7,8 @@ public class SpringBootApplication {
   private static final Integer VALOR_KM = 1000;
 
   public static void main(String[] args) {
-    var distanciaPercorridaMetro = 4.0;
     var tempoAcionamentoMin = valueOf(1);
+    var distanciaPercorridaMetro = 4.0;
 
     final Double velocidadeKm =
         calcularVelocidadeMin(distanciaPercorridaMetro, tempoAcionamentoMin);
