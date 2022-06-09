@@ -3,8 +3,8 @@ import static java.lang.String.format;
 
 public class SpringBootApplication {
 
-  private static final Integer VALOR_HORA = 60;
   private static final Integer VALOR_KM = 1000;
+  private static final Integer VALOR_HORA = 60;
 
   public static void main(String[] args) {
     var tempoAcionamentoMin = valueOf(1);
